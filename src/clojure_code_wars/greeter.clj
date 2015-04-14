@@ -1,4 +1,4 @@
-(ns person)
+(ns clojure-code-wars.greeter)
 
 (defprotocol Greeter
   (greet [this other-name]))

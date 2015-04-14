@@ -1,4 +1,4 @@
-(ns multiply.bug.fix)
+(ns clojure-code-wars.multiply)
 
 ;; following need to be fixed
 (defn multiply [a b]

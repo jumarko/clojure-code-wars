@@ -1,4 +1,4 @@
-(ns ReverseLonger)
+(ns clojure-code-wars.reverse-longer)
 
 (defn reverseLonger
   [a b]

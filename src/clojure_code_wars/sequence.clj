@@ -1,4 +1,4 @@
-(ns term)
+(ns clojure-code-wars.sequence)
 
 (defn nth-term
   "Returns nth term  in arithmetic sequence given by first element and constant c."

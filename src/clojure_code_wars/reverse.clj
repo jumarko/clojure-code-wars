@@ -1,4 +1,4 @@
-(ns reverse
+(ns clojure-code-wars.reverse
   (:refer-clojure :exclude [reverse]))
 
 (defn reverse

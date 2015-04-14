@@ -1,4 +1,4 @@
-(ns unpack)
+(ns clojure-code-wars.unpack)
 
 (defn spread
   [func, args]
@@ -6,4 +6,4 @@
   )
 
 ;; following should return 15
-(unpack/spread + [1 2 3 4 5])
+(clojure-code-wars.unpack/spread + [1 2 3 4 5])

@@ -1,4 +1,4 @@
-(ns skin-a-cat)
+(ns clojure-code-wars.skin-a-cat)
 
 (defn sum
   ([x] (partial + x))
