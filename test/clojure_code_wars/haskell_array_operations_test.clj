@@ -8,8 +8,8 @@
     (is (= (clojure-code-wars.haskell-array-operations/head [1 2 3 4 5]) 1 ))))
 
 (deftest tail-test
-  ,(testing "tail should return the first element of list"
-    (is (= (clojure-code-wars.haskell-array-operations/tail [1 2 3 4 5]) 5 ))))
+  ,(testing "tail should return the rest of the list without first element:"
+    (is (= (clojure-code-wars.haskell-array-operations/tail [1 2 3 4 5]) [2 3 4 5]))))
 
 (deftest init-test
   ,(testing "init should return the list without last element"
