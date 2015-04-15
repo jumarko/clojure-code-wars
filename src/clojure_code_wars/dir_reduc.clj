@@ -18,7 +18,9 @@
   (loop [procDirs []
          newDirs (vec directionsList)]
     (if (empty? newDirs)
-      procDirs
+      (if (empty? procDirs)
+        nil
+        procDirs)
       (let [lastProc (last procDirs)
             firstNew (first newDirs)]
         (if (reducible? lastProc firstNew)

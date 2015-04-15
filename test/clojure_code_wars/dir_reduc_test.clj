@@ -31,3 +31,9 @@
     (def ur ["NORTH", "WEST", "EAST", "EAST", "WEST"])
     (def vr ["NORTH"])
         (is (= (dirReduc ur) vr))))
+
+(deftest a-test6
+  (testing "Test 6"
+    (def ur [])
+    (def vr nil)
+        (is (= (dirReduc ur) vr))))
