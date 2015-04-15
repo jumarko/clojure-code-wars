@@ -19,3 +19,15 @@
     (def ur ["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"])
     (def vr ["WEST", "WEST"])
         (is (= (dirReduc ur) vr))))
+
+(deftest a-test4
+  (testing "Test 4"
+    (def ur ["NORTH", "WEST", "EAST"])
+    (def vr ["NORTH"])
+        (is (= (dirReduc ur) vr))))
+
+(deftest a-test5
+  (testing "Test 5"
+    (def ur ["NORTH", "WEST", "EAST", "EAST", "WEST"])
+    (def vr ["NORTH"])
+        (is (= (dirReduc ur) vr))))
