@@ -3,7 +3,6 @@
 (defn solution [upper-bound]
   "Find sum of all multiplies of 3 and five strictly lower than given upper-bound."
   (let [multiplies-of-three-or-five (for [x (range upper-bound) :when (or (zero? (mod x 3)) (zero? (mod x 5)))] x)]
-      (println multiplies-of-three-or-five)
       (apply + multiplies-of-three-or-five)
     )
   )
